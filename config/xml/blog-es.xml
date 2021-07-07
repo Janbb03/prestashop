@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>10 métricas esenciales de Google Analytics para tu eCommerce</title>
+    <link>https://www.prestashop.com/es/blog/metricas-esenciales-google-analytics</link>
+    <description>Es un hecho, todo negocio necesita medir sus resultados. Si tienes una tienda online, necesitas conseguir estadísticas basadas en los datos que arrojan indicadores de la analítica web.</description>
+     <pubDate>Tue, 06 Jul 2021 17:46:26 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/metricas-esenciales-google-analytics</guid>
+  </item>
+  <item>
+    <title>Las fechas clave que debes tener en cuenta para promocionar tu eCommerce PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/fechas-clave-tienda-prestashop</link>
+    <description>Todo comercio electrónico, sean cuales sean los productos que en él se ofrezcan, está sometido a fluctuaciones de la demanda.</description>
+     <pubDate>Thu, 01 Jul 2021 16:27:07 +0200</pubDate>
+ <dc:creator>Dani Cerdán</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/fechas-clave-tienda-prestashop</guid>
+  </item>
+  <item>
+    <title>Rendimiento web: por qué es tan importante y cómo optimizarlo</title>
+    <link>https://www.prestashop.com/es/blog/importancia-rendimiento-ecommerce</link>
+    <description>Si ya tienes una tienda en línea, o estás pensando en lanzar un proyecto de comercio electrónico, probablemente ya has oído hablar de la importancia del rendimiento.</description>
+     <pubDate>Thu, 01 Jul 2021 16:03:49 +0200</pubDate>
+ <dc:creator>Noel Peix Boisdon ES</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/importancia-rendimiento-ecommerce</guid>
+  </item>
+  <item>
+    <title>¿Qué es el Quality Score de Google Ads? Consejos para mejorarlo y aumentar tu puntuación</title>
+    <link>https://www.prestashop.com/es/blog/mejorar-calidad-google-ads</link>
+    <description>Si ya has creado más de una campaña de publicidad online, sabrás que existen multitud de factores que pueden hacerte tener éxito o fracasar con ellas.</description>
+     <pubDate>Wed, 30 Jun 2021 16:58:27 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/mejorar-calidad-google-ads</guid>
+  </item>
+  <item>
+    <title>IVA: Nuevas reglas aplicables de la Unión Europea a partir del 1 de julio de 2021</title>
+    <link>https://www.prestashop.com/es/blog/nuevas-reglas-iva-ue</link>
+    <description>Las reglas del IVA aplicables a la Venta a Distancia (VAD) y, de forma más general, al comercio electrónico BtoC, se modificarán radicalmente para todos los países de la Unión Europea (UE)</description>
+     <pubDate>Tue, 29 Jun 2021 15:08:27 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/nuevas-reglas-iva-ue</guid>
+  </item>
+  <item>
+    <title>Rebajas: ¿qué quieren los consumidores? </title>
+    <link>https://www.prestashop.com/es/blog/ofertas-satisfacer-consumidores</link>
+    <description>Los comerciantes no son los únicos en prepararse con anticipación para las rebajas de temporada, que siguen representando e</description>
+     <pubDate>Fri, 25 Jun 2021 18:03:43 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/ofertas-satisfacer-consumidores</guid>
+  </item>
+  <item>
+    <title> Maximizar las campañas inteligentes de Shopping en tu tienda PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/prestashop-campana-google-ads</link>
+    <description>Sacar el máximo partido a los beneficios ligados al uso de PrestaShop exige poner en relación muchas realidades distintas pero interconectadas entre ellas por el objetivo que tiene</description>
+     <pubDate>Tue, 22 Jun 2021 15:15:02 +0200</pubDate>
+ <dc:creator>Dani Cerdán</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/prestashop-campana-google-ads</guid>
+  </item>
+  <item>
+    <title>Elementos básicos para que tu eCommerce PrestaShop tenga un contenido de calidad</title>
+    <link>https://www.prestashop.com/es/blog/crear-buen-contenido-prestashop</link>
+    <description>Se suele creer que el contenido en un eCommerce no tiene tanta importancia como en otro tipo de páginas, como pueden ser las corporativas o los blogs y portales de noticias.</description>
+     <pubDate>Thu, 17 Jun 2021 10:33:43 +0200</pubDate>
+ <dc:creator>Dani Cerdán</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/crear-buen-contenido-prestashop</guid>
+  </item>
+  <item>
+    <title>Comercio electrónico: ¿cómo seguir de cerca tus KPI?</title>
+    <link>https://www.prestashop.com/es/blog/como-seguir-kpis</link>
+    <description>En un artículo anterior, mencionamos la importancia de los indicadores clave de rendimiento para evaluar la rentabilidad de tu</description>
+     <pubDate>Wed, 16 Jun 2021 11:29:26 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-seguir-kpis</guid>
+  </item>
+  <item>
+    <title>Siete consejos para preparar las rebajas de verano</title>
+    <link>https://www.prestashop.com/es/blog/consejos-rebajas</link>
+    <description>En la mayor parte de Europa, las rebajas de verano comenzarán a finales de mes: el 30 de junio en Francia, y los primeros días de julio en Bélgica, Italia y España.</description>
+     <pubDate>Mon, 14 Jun 2021 15:51:59 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/consejos-rebajas</guid>
+  </item>
+  </channel>
+</rss>
