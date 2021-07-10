@@ -16,9 +16,9 @@
 #enabled_filters li a {
   float: right;
   /*display: inline-block;
-	height: 12px;
-	width: 12px;
-	text-indent: -5000px;*/
+  height: 12px;
+  width: 12px;
+  text-indent: -5000px;*/
   /*background: url(../../../img/icon/delete.gif) no-repeat 0 0 transparent;*/
   /*background: url(./delete.gif) no-repeat 0 0 transparent;*/
   cursor: pointer;
@@ -202,11 +202,9 @@
 .layered_filter {
   border-bottom: 1px solid #eee;
 }
-
 .layered_filter label {
   font-weight: normal;
 }
-
 .layered_filter layered_subtitle {
   font-size: 1.2 em;
 }
@@ -214,5 +212,4 @@
 #layered_block_left ul li {
   min-width: 50%;
   width: auto;
-}
-/*# sourceMappingURL=blocklayered.css.map */
+}/*# sourceMappingURL=blocklayered.css.map */

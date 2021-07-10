@@ -1,7 +1,6 @@
 .tags_block .block_content {
   overflow: hidden;
 }
-
 .tags_block .block_content a {
   display: inline-block;
   font-size: 13px;
@@ -12,9 +11,7 @@
   float: left;
   margin: 0 3px 3px 0;
 }
-
 .tags_block .block_content a:hover {
   color: #333;
   background: #f6f6f6;
-}
-/*# sourceMappingURL=blocktags.css.map */
+}/*# sourceMappingURL=blocktags.css.map */

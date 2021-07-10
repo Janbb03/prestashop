@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAC,OAAO,CAAC,CAAC,CAAC;EACjB,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,IAAI;CAChB;;AACD,AAAA,OAAO,CAAC,OAAO,CAAC,CAAC,CAAC,GAAG,CAAC;EACrB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACV,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,MAAM;CACnB",
-    "sources": [
-        "blockbanner.scss"
-    ],
-    "names": [],
-    "file": "blockbanner.css"
-}
+{"version":3,"sources":["blockbanner.scss"],"names":[],"mappings":"AAAA;EACC,cAAA;EACA,iBAAA;EACA,gBAAA;AACD;;AACA;EACC,cAAA;EACA,WAAA;EACA,YAAA;EACE,gBAAA;EACA,iBAAA;AAEH","file":"blockbanner.css"}

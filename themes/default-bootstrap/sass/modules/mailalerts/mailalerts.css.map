@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAEE,yBAFuB,CACxB,EAAE,AACA,UAAU,CAAC;EACX,aAAa,EAAC,IAAI;EAClB,aAAa,EAAC,CAAC;CACf;;AALH,AAME,yBANuB,CACxB,EAAE,CAKD,qBAAqB,CAAC;EACrB,KAAK,EAAC,IAAI;EACV,YAAY,EAAC,IAAI;CACjB;;AATH,AAUE,yBAVuB,CACxB,EAAE,CASD,OAAO,CAAC;EACP,KAAK,EAAC,KAAK;CAIX;;AAfH,AAYG,yBAZsB,CACxB,EAAE,CASD,OAAO,CAEN,CAAC,CAAC;EACD,MAAM,EAAC,OAAO;CACd",
-    "sources": [
-        "mailalerts.scss"
-    ],
-    "names": [],
-    "file": "mailalerts.css"
-}
+{"version":3,"sources":["mailalerts.scss"],"names":[],"mappings":"AAEE;EACC,mBAAA;EACA,gBAAA;AADH;AAGE;EACC,WAAA;EACA,kBAAA;AADH;AAGE;EACC,YAAA;AADH;AAEG;EACC,eAAA;AAAJ","file":"mailalerts.css"}

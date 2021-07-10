@@ -1,0 +1,5 @@
+*ERROR* 	2021/07/09 - 21:22:30: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'motosp'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/07/09 - 21:22:33: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'motosp'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/07/09 - 21:22:35: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'motosp'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/07/09 - 21:22:43: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'motosp'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/07/09 - 21:23:00: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'motosp'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php

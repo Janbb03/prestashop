@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAEC,WAFU,CAEV,cAAc,CAAC;EACd,QAAQ,EAAC,MAAM;CAiBf;;AApBF,AAKE,WALS,CAEV,cAAc,CAGb,CAAC,CAAC;EACD,OAAO,EAAC,YAAY;EACpB,SAAS,EAAC,IAAI;EACd,WAAW,EAAC,IAAI;EAChB,WAAW,EAAC,IAAI;EAChB,OAAO,EAAC,eAAe;EACvB,MAAM,EAAC,GAAG,CAAC,KAAK,CCDK,OAAO;EDE5B,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,WAAW;CAMlB;;AAnBH,AAeG,WAfQ,CAEV,cAAc,CAGb,CAAC,AAUC,MAAM,CAAC;EACP,KAAK,ECS2B,IAAI;EDRpC,UAAU,EAAC,OAAO;CAClB",
-    "sources": [
-        "blocktags.scss",
-        "../../_theme_variables.scss",
-        "../../bootstrap_lib/_variables.scss"
-    ],
-    "names": [],
-    "file": "blocktags.css"
-}
+{"version":3,"sources":["blocktags.scss","../../_theme_variables.scss"],"names":[],"mappings":"AAGC;EACC,gBAAA;AAFF;AAIE;EACC,qBAAA;EACA,eAAA;EACA,iBAAA;EACA,iBAAA;EACA,wBAAA;EACA,yBAAA;EACA,WAAA;EACA,mBAAA;AAFH;AAIG;EACC,WCSgC;EDRhC,mBAAA;AAFJ","file":"blocktags.css"}

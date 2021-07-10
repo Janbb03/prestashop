@@ -2,17 +2,13 @@
   border-bottom: none;
   margin-bottom: 0;
 }
-
 #mailalerts_block_account li .products-block-image {
   float: left;
   margin-right: 19px;
 }
-
 #mailalerts_block_account li .remove {
   float: right;
 }
-
 #mailalerts_block_account li .remove i {
   cursor: pointer;
-}
-/*# sourceMappingURL=mailalerts.css.map */
+}/*# sourceMappingURL=mailalerts.css.map */
