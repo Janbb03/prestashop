@@ -1,7 +1,14 @@
+$generalfont: 'Roboto', sans-serif;
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .flex_container{
@@ -30,7 +37,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 2% 10%;
     background-color: #F6F5F5;
 }
 
@@ -38,24 +45,24 @@ header{
     position: absolute; 
     visibility: visible; 
     z-index: 200;
-    margin-left: -2.604166666666667%;
-    margin-right: -2.604166666666667%;
     height: 26.041666666666668vw;
-    width: 100%;
-    margin-top: 48.7%;
+    width: 96%;
+    margin-top: 45.9%;
+    right: 2%;
 }
 
 .logo{
-    max-width: 300px;
+    max-width: 30%;
 }
 
 ul{
+    text-align: center;
     list-style: none;
     li{
-       display: inline-block;
+        display: inline-block;
         padding: 0px 20px;
         a{
-            font-family: 'Roboto', sans-serif;
+            font-family: $generalfont;
             font-size: 1.4583333333333333vw;
             font-style: normal;
             color: black;  
@@ -86,7 +93,7 @@ ul{
     height: 100%;
     h1{
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: $generalfont;
         font-weight: normal;
         font-size: 2.5vw;
         text-align: center; 
@@ -94,7 +101,7 @@ ul{
     p{
         margin-top: 1.3020833333333333vw;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: $generalfont;
         font-weight: normal;
         font-size: 1.25vw;
         text-align: center; 
@@ -112,7 +119,7 @@ ul{
             border-radius: 13px;
             background-color: white;
             color: black;
-            font-family: 'Roboto', sans-serif;
+            font-family: $generalfont;
             font-weight: normal;
             font-size: 1.25vw;
             
@@ -160,7 +167,7 @@ ul{
 .texto1{
     width: 100%;
     font-size: 2.5vw;
-    font-family:'Roboto', sans-serif ;
+    font-family:$generalfont ;
     color: white;
     text-align: center;
 }
@@ -170,7 +177,7 @@ ul{
     margin-left: 25%;
     width: 50%;
     font-size: 1.4583333333333333vw;
-    font-family:'Roboto', sans-serif ;
+    font-family: $generalfont ;
     color: white;
     text-align: center;
 }
@@ -184,6 +191,16 @@ ul{
 
 .glider-prev,.glider-next{
     top: 50%;
+    color: white;
+    font-size: 4vw;
+}
+
+.glider-prev{
+    left: -10%;
+}
+
+.glider-next{
+    right: -10%;
 }
 
 .servicios{
@@ -193,12 +210,26 @@ ul{
         text-align: center;
         top: 50%;
         font-size: 2.5vw;
-        font-family:'Roboto', sans-serif ;
+        font-family: $generalfont;
         color: white;
         text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     }
     button{
         cursor: pointer;
         
+    }
+}
+
+.thirdpart{
+    width: 100%;
+    height: 1000px;
+    .vector2{
+        position: absolute; 
+        visibility: visible; 
+        z-index: 200;
+        transform: rotate(180deg);
+        height: 26.041666666666668vw;
+        width: 96%;
+        margin-top: -1px;
     }
 }

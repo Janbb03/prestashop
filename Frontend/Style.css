@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 .flex_container {
   display: flex;
   flex-wrap: wrap;
@@ -30,7 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 2% 10%;
   background-color: #F6F5F5;
 }
 
@@ -38,18 +43,18 @@ header {
   position: absolute;
   visibility: visible;
   z-index: 200;
-  margin-left: -2.6041666667%;
-  margin-right: -2.6041666667%;
   height: 26.0416666667vw;
-  width: 100%;
-  margin-top: 48.7%;
+  width: 96%;
+  margin-top: 45.9%;
+  right: 2%;
 }
 
 .logo {
-  max-width: 300px;
+  max-width: 30%;
 }
 
 ul {
+  text-align: center;
   list-style: none;
 }
 ul li {
@@ -179,6 +184,16 @@ ul li a {
 
 .glider-prev, .glider-next {
   top: 50%;
+  color: white;
+  font-size: 4vw;
+}
+
+.glider-prev {
+  left: -10%;
+}
+
+.glider-next {
+  right: -10%;
 }
 
 .servicios {
@@ -195,4 +210,18 @@ ul li a {
 }
 .servicios button {
   cursor: pointer;
+}
+
+.thirdpart {
+  width: 100%;
+  height: 1000px;
+}
+.thirdpart .vector2 {
+  position: absolute;
+  visibility: visible;
+  z-index: 200;
+  transform: rotate(180deg);
+  height: 26.0416666667vw;
+  width: 96%;
+  margin-top: -1px;
 }/*# sourceMappingURL=Style.css.map */
