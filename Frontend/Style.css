@@ -42,7 +42,7 @@ header {
   margin-right: -2.6041666667%;
   height: 26.0416666667vw;
   width: 100%;
-  margin-top: 48.5011%;
+  margin-top: 48.7%;
 }
 
 .logo {
@@ -52,12 +52,10 @@ header {
 ul {
   list-style: none;
 }
-
 ul li {
   display: inline-block;
   padding: 0px 20px;
 }
-
 ul li a {
   font-family: "Roboto", sans-serif;
   font-size: 1.4583333333vw;
@@ -86,7 +84,6 @@ ul li a {
   width: 100%;
   height: 100%;
 }
-
 .landing_text .box h1 {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -94,7 +91,6 @@ ul li a {
   font-size: 2.5vw;
   text-align: center;
 }
-
 .landing_text .box p {
   margin-top: 1.3020833333vw;
   color: white;
@@ -103,13 +99,11 @@ ul li a {
   font-size: 1.25vw;
   text-align: center;
 }
-
 .landing_text .box div {
   margin-top: 1.3020833333vw;
   display: flex;
   justify-content: center;
 }
-
 .landing_text .box div button {
   width: 7.5vw;
   height: 3.0208333333vw;
@@ -150,4 +144,44 @@ ul li a {
 
 .image_container:hover .images {
   filter: grayscale(100%) brightness(30%);
+}
+
+.secondpart {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #33313B;
+}
+
+.texto1 {
+  width: 100%;
+  font-size: 2.5vw;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  padding: 5% 20% 0% 20%;
+}
+
+.glider-prev, .glider-next {
+  top: 50%;
+}
+
+.servicios {
+  display: flex;
+}
+.servicios p {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  font-size: 2.5vw;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+.servicios button {
+  cursor: pointer;
 }/*# sourceMappingURL=Style.css.map */

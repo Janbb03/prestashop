@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moto partes Thania</title>
-    <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="stylesheet" href="Style.css">
     <link  rel="icon"   href="Sources/Moto_icon.png" type="image/png" />
 </head>
 <body>
@@ -58,8 +59,44 @@
             </div>
         </div>
             <div class="secondpart">
-                <div class="bruh"><p>hollaaaaa</p>
+                <div class="texto1">
+                    <p>Estamos listos para arreglar tu motocicleta</p>
+                </div>
+                <div class="container">
+                    <div class="glider-contain">
+                    <div class="glider">
+                      <div class="servicios">
+                          <p>Mantenimiento</p>
+                          <button><img src="Sources/mantenimiento.jpeg" alt=""></button>
+                      </div>
+                      <div class="servicios">
+                          <p>Mecanica en general</p>
+                          <button><img src="Sources/mecanica.jpeg" alt=""></button>
+                      </div>
+                      <div class="servicios">
+                          <p>Sistema electrico</p>
+                          <button><img src="Sources/sistemaelectrico.jpg" alt=""></button>
+                      </div>
+                      <div class="servicios">
+                          <p>Servicio a sitio</p>
+                          <button><img src="Sources/servicioasitio.jpeg" alt=""></button>
+                      </div>
+                      <div class="servicios">
+                          <p>Enderezado y pintura</p>
+                          <button><img src="Sources/pintura.jpg" alt=""></button>
+                      </div>
+                    </div>
+                  
+                    <button aria-label="Previous" class="glider-prev"><i class="fas fa-chevron-circle-left"></i></button>
+                    <button aria-label="Next" class="glider-next"><i class="fas fa-chevron-circle-right"></i></button>
+                    <div role="tablist" class="dots"></div>
+                  </div>
+                </div>
+                
             </div>
-    </div>    
+    
+    <script src="https://kit.fontawesome.com/4fafbfe9c1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
