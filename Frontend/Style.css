@@ -7,9 +7,13 @@
 body {
   margin-left: 2%;
   margin-right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
 }
 
 .flex_container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
@@ -31,6 +35,7 @@ body::-webkit-scrollbar-track {
 }
 
 header {
+  z-index: 1;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -47,20 +52,10 @@ header ul li {
   padding: 0px 20px;
 }
 header ul li a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.4583333333vw;
   font-style: normal;
   color: black;
-}
-
-.vector {
-  position: absolute;
-  visibility: visible;
-  z-index: 200;
-  height: 26.0416666667vw;
-  width: 96%;
-  margin-top: 45.9%;
-  right: 2%;
 }
 
 .logo {
@@ -70,9 +65,9 @@ header ul li a {
 .firstpart {
   justify-content: space-between;
   display: flex;
-  margin-left: 2.6041666667%;
-  margin-right: 2.6041666667%;
-  background-color: #4592AF;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(360deg, #998cc0 100%, #ffff 81.56%), url(.jpg);
   max-width: 100%;
 }
 
@@ -90,7 +85,7 @@ header ul li a {
 }
 .landing_text .box h1 {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal;
   font-size: 2.5vw;
   text-align: center;
@@ -98,7 +93,7 @@ header ul li a {
 .landing_text .box p {
   margin-top: 1.3020833333vw;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal;
   font-size: 1.25vw;
   text-align: center;
@@ -116,7 +111,7 @@ header ul li a {
   border-radius: 13px;
   background-color: white;
   color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal;
   font-size: 1.25vw;
 }
@@ -125,46 +120,66 @@ button {
   border: none;
 }
 
-.image_section {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 50%;
-  height: 100%;
-  z-index: 2;
-}
-
-.images {
+.parallax1 {
+  position: relative;
   width: 100%;
-  height: 100%;
-  transition: 1s;
-}
-
-.image_container {
-  background-color: black;
+  min-height: 100vh;
   display: flex;
-  height: 33.333333%;
-  width: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
   justify-content: center;
   align-items: center;
-  z-index: 201;
 }
-
-.image_container:hover .images {
-  filter: grayscale(100%) brightness(30%);
+.parallax1 #text {
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  z-index: 100;
+}
+.parallax1 #text span {
+  font-size: 5vw;
+}
+.parallax1 img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.parallax1 #carretera {
+  z-index: 3;
+}
+.parallax1 #montanas {
+  z-index: 2;
+}
+.parallax1 #montanaslejanas {
+  z-index: 1;
+}
+.parallax1 #moto {
+  z-index: 4;
+}
+.parallax1 #planicie {
+  z-index: 50;
+  background: linear-gradient(180deg, #998cc0 5%, rgba(255, 255, 255, 0) 25%);
 }
 
 .secondpart {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   background-color: #33313B;
+  z-index: 200;
 }
 
 .texto1 {
+  margin-top: 5vw;
   width: 100%;
   font-size: 2.5vw;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: white;
   text-align: center;
 }
@@ -174,7 +189,7 @@ button {
   margin-left: 25%;
   width: 50%;
   font-size: 1.4583333333vw;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: white;
   text-align: center;
 }
@@ -207,7 +222,7 @@ button {
   text-align: center;
   top: 50%;
   font-size: 2.5vw;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: white;
   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
@@ -268,7 +283,7 @@ footer ul li {
   padding-bottom: 5%;
 }
 footer ul li a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1vw;
   font-style: normal;
   color: white;
@@ -282,14 +297,14 @@ footer ul li a {
   justify-content: center;
 }
 .afiliados #afiliadotext1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.875vw;
   text-align: center;
   width: 100%;
   color: white;
 }
 .afiliados #afiliadotext2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.25vw;
   text-align: center;
   width: 60%;
