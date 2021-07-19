@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.flex_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  background-color: black;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #383838;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #d8d8d8;
+}
+
+.logo {
+  max-width: 30%;
+}
+
+header {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+  background-color: transparent;
+}
+header ul {
+  text-align: center;
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+header ul li a {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4583333333vw;
+  font-style: normal;
+  color: white;
+}
+
+.parallax {
+  position: absolute;
+  background-image: url(Sources/empresa.jpg);
+  width: 96%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#acercade {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 80vh;
+  flex-wrap: wrap;
+  z-index: 1;
+  background-image: linear-gradient(#2e2e2e 90%, black);
+  text-align: center;
+  justify-content: center;
+}
+#acercade h1 {
+  font-size: 4vw;
+  color: white;
+  padding: 0;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  padding: 2%;
+}
+#acercade h2 {
+  font-size: 3vw;
+  color: white;
+  padding: 0;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  padding: 2%;
+}
+#acercade p {
+  font-size: 2vw;
+  color: white;
+  padding: 1% 10%;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+}
+#acercade ul {
+  font-size: 2vw;
+  font-family: "Oswald", sans-serif;
+  z-index: 1;
+  color: white;
+  list-style: none;
+}
+
+footer {
+  padding: 10% 0% 0% 0%;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+}
+footer ul {
+  width: 20%;
+  list-style: none;
+}
+footer ul li {
+  width: 100%;
+  padding-left: 50%;
+  padding-bottom: 5%;
+}
+footer ul li a {
+  font-family: "Oswald", sans-serif;
+  font-size: 1vw;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.afiliados {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.afiliados #afiliadotext1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.875vw;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.afiliados #afiliadotext2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.25vw;
+  text-align: center;
+  width: 60%;
+  color: white;
+}
+.afiliados #afiliadoslogo {
+  width: 50%;
+}/*# sourceMappingURL=Acercade.css.map */

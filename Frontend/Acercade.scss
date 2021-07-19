@@ -1,0 +1,176 @@
+$generalfont: 'Oswald', sans-serif;;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+
+.flex_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: black;
+}
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(56, 56, 56);
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: rgb(216, 216, 216);
+}
+
+
+.logo{
+    max-width: 30%;
+    
+}
+
+
+header{
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+    background-color: transparent;
+    ul{
+        text-align: center;
+        list-style: none;
+        li{
+            display: inline-block;
+            padding: 0px 20px;
+            a{
+                font-family: $generalfont;
+                font-size: 1.4583333333333333vw;
+                font-style: normal;
+                color: white;  
+            } 
+        }
+    }
+}
+
+.parallax{
+    position: absolute;
+    background-image: url(Sources/empresa.jpg);
+    width: 96%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#acercade{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top:80vh;
+    flex-wrap: wrap;
+    z-index: 1;
+    background-image: linear-gradient(rgb(46, 46, 46) 90%,black);
+    text-align: center;
+    justify-content: center;
+    h1{
+        font-size: 4vw;
+        color: white;
+        padding: 0;
+        width: 100%;
+        font-family: $generalfont;
+        padding: 2%;
+    }
+    h2{
+        font-size: 3vw;
+        color: white;
+        padding: 0;
+        width: 100%;
+        font-family: $generalfont;
+        padding: 2%;
+    }
+    p{
+        font-size: 2vw;
+        color: white;
+        padding: 1% 10%;
+        width: 100%;
+        font-family: $generalfont;
+    }
+    ul{
+        font-size: 2vw;
+        font-family: $generalfont;
+        z-index: 1;
+        color: white;
+        list-style: none;
+    }
+}
+
+footer{
+    padding: 10% 0% 0% 0%;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    ul{
+        width: 20%;
+        list-style: none;
+
+        li{
+            width: 100%;
+            
+            padding-left: 50%;
+            padding-bottom: 5%;
+            a{
+                font-family: $generalfont;
+                font-size: 1vw;
+                font-style: normal;
+                color: white;  
+                text-decoration: none;
+                
+            } 
+        }
+    }
+}
+
+.afiliados{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    #afiliadotext1{
+        font-family: $generalfont;
+        font-size: 1.875vw;
+        text-align: center;
+        width: 100%;
+        color: white;
+    }
+    #afiliadotext2{
+        font-family: $generalfont;
+        font-size: 1.25vw;
+        text-align: center;
+        width: 60%;
+        color: white;
+    }
+    #afiliadoslogo{
+        width: 50%;
+        
+    }
+}
