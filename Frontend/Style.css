@@ -60,6 +60,7 @@ header ul li a {
 
 .logo {
   max-width: 30%;
+  cursor: pointer;
 }
 
 .firstpart {

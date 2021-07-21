@@ -75,7 +75,7 @@ header{
 
 .parallax{
     position: absolute;
-    background-image: url(Sources/empresa.jpeg);
+    background-image: url(Sources/Servicios.jpeg);
     width: 96%;
     height: 100%;
     background-position: center;
@@ -84,47 +84,109 @@ header{
     background-attachment: fixed;
 }
 
-#acercade{
+#Servicios{
     position: relative;
     display: flex;
     width: 100%;
     margin-top:80vh;
     flex-wrap: wrap;
-    border-radius: 10px;
     z-index: 1;
+    border-radius: 10px;
     background-image: linear-gradient(rgb(46, 46, 46) 90%,black);
     text-align: center;
     justify-content: center;
-    h1{
-        font-size: 4vw;
-        color: white;
-        padding: 0;
-        width: 100%;
-        font-family: $generalfont;
-        padding: 2%;
+    .gallery{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1% 1% 0.5% 1%;
+        height: 70vh;
+        .imagen{
+            border-radius: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: $generalfont;
+            font-size: 4vh;
+            text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+        }
+        p{
+            width: 100%;
+            
+        }
+        ul{
+            transition: 1s;
+            opacity: 0;
+            visibility: hidden;
+            li{
+               list-style: none;
+            }
+        }
+        
+        #mantenimiento{
+            background-image: url(Sources/mantenimiento.jpeg);
+            background-position: center;
+            background-size: 100% 100%;
+            transition: 1s;
+        }
+        #mecanica{
+            background-image: url(Sources/mecanica.jpeg);
+            background-position: center;
+            background-size: 100% 100%;
+            transition: 1s;
+        }
+        #sistema{
+            background-image: url(Sources/sistemaelectrico.jpg);
+            background-position: center;
+            background-size: 100% 100%;
+            transition: 1s;
+        }
+        #servicio{
+            background-image: url(Sources/servicioasitio.jpeg);
+            background-position: center;
+            background-size: 100% 100%;
+            transition: 1s;
+        }
+        #pintura{
+            background-image: url(Sources/pintura.jpg);
+            background-position: center;
+            background-size: 100% 100%;
+            transition: 1s;
+        }
+        img{
+            border-radius: 40px;
+            width: 100%;
+        }
     }
-    h2{
-        font-size: 3vw;
-        color: white;
-        padding: 0;
-        width: 100%;
-        font-family: $generalfont;
-        padding: 2%;
-    }
-    p{
-        font-size: 2vw;
-        color: white;
-        padding: 1% 10%;
-        width: 100%;
-        font-family: $generalfont;
-    }
-    ul{
-        font-size: 2vw;
-        font-family: $generalfont;
-        z-index: 1;
-        color: white;
-        list-style: none;
-    }
+    .gallery:hover{
+        ul{
+            visibility: visible;
+            opacity: 100;
+        }
+        #mantenimiento{
+            filter: grayscale(100);
+            background-size: 150% 150%;
+        } 
+        #mecanica{
+            filter: grayscale(100);
+            background-size: 150% 150%;
+        } 
+        #sistema{
+            filter: grayscale(100);
+            background-size: 150% 150%;
+        } 
+        #servicio{
+            filter: grayscale(100);
+            background-size: 150% 150%;
+        } 
+        #pintura{
+            filter: grayscale(100);
+            background-size: 150% 150%;
+        } 
+    } 
 }
 
 footer{
