@@ -221,7 +221,7 @@
 <module name="mollie" position="7"/>
 <module name="sezzle" position="8"/>
 <module name="clearpay" position="9"/>
-<module name="klarnaofficial" position="10"/>
+<module name="klarnapaymentsofficial" position="10"/>
 <module name="payplug" position="11"/>
 <module name="vivawalletofficial" position="12"/>
 <module name="mercadopago" position="13"/>

@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
+  transition: all .4s;
 }
 
 .flex_container {
@@ -278,3 +279,4 @@ footer ul li a {
 .afiliados #afiliadoslogo {
   width: 50%;
 }/*# sourceMappingURL=Style.css.map */
+

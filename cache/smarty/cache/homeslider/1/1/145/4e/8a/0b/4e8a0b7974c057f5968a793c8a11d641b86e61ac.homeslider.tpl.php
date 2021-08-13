@@ -10,44 +10,41 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '210463605060e4f15f4ff711-95427344',
-  'variables' => 
-  array (
-    'page_name' => 0,
-    'homeslider_slides' => 0,
-    'slide' => 0,
-    'link' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_60e4f15f5ed2f2_62518302',
+  'unifunc' => 'content_6115a59060f1c0_87248032',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60e4f15f5ed2f2_62518302')) {function content_60e4f15f5ed2f2_62518302($_smarty_tpl) {?><!-- Module HomeSlider -->
+<?php if ($_valid && !is_callable('content_6115a59060f1c0_87248032')) {function content_6115a59060f1c0_87248032($_smarty_tpl) {?><!-- Module HomeSlider -->
     		<div id="homepage-slider">
 						<ul id="homeslider" style="max-height:448px;">
 															<li class="homeslider-container">
 							<a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v16_homeslider&amp;utm_campaign=back-office-ES&amp;utm_content=download" title="sample-1">
-								<img src="http://localhost/prestashop/modules/homeslider/images/sample-1.jpg" width="779" height="448" alt="sample-1" />
+								<img src="http://localhost/prestashop/modules/homeslider/images/f298d432d480d61e969a698b47ca137e2efbe445_Dise&ntilde;o sin t&iacute;tulo (2).png" width="779" height="448" alt="sample-1" />
 							</a>
-															<div class="homeslider-description"><h2>EXCEPTEUR<br />OCCAECAT</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p>
-				<p><button class="btn btn-default" type="button">Shop now !</button></p></div>
+															<div class="homeslider-description"><h2>ROPA</h2>
+<p><span style="color:#ffffff;background-color:#000000;">En MotoPartes Thania podrás encontrar la mejor selección de ropa para motociclismo, desde chamarras casuales hasta ropa para equipo de motocross.</span></p>
+<p><button class="btn btn-default" type="button">Comprar ahora !</button></p></div>
 													</li>
 																				<li class="homeslider-container">
 							<a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v16_homeslider&amp;utm_campaign=back-office-ES&amp;utm_content=download" title="sample-2">
-								<img src="http://localhost/prestashop/modules/homeslider/images/sample-2.jpg" width="779" height="448" alt="sample-2" />
+								<img src="http://localhost/prestashop/modules/homeslider/images/9072a6c8d1da8c3d7c675a55ff39198bec8cdbb1_Dise&ntilde;o sin t&iacute;tulo.png" width="779" height="448" alt="sample-2" />
 							</a>
-															<div class="homeslider-description"><h2>EXCEPTEUR<br />OCCAECAT</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p>
-				<p><button class="btn btn-default" type="button">Shop now !</button></p></div>
+															<div class="homeslider-description"><h2></h2>
+<h2></h2>
+<h2>ENCUENTRA LOS MEJORES</h2>
+<h2>ACCESORIOS PARA</h2>
+<h2>MOTOCROSS</h2>
+<p></p>
+<p><button class="btn btn-default" type="button">cOMPRAR AHORA !</button></p></div>
 													</li>
 																				<li class="homeslider-container">
 							<a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v16_homeslider&amp;utm_campaign=back-office-ES&amp;utm_content=download" title="sample-3">
-								<img src="http://localhost/prestashop/modules/homeslider/images/sample-3.jpg" width="779" height="448" alt="sample-3" />
+								<img src="http://localhost/prestashop/modules/homeslider/images/1b4d38e4d1eca83b7931cfbd6516ae1cbc5c0e7c_Dise&ntilde;o sin t&iacute;tulo (4).png" width="779" height="448" alt="sample-3" />
 							</a>
-															<div class="homeslider-description"><h2>EXCEPTEUR<br />OCCAECAT</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p>
-				<p><button class="btn btn-default" type="button">Shop now !</button></p></div>
+															<div class="homeslider-description"><h2>OUTLET<br /><br /></h2>
+<p>Disfruta de nuestra selección de productos en rebaja</p>
+<p><button class="btn btn-default" type="button">Comprar ahora !</button></p></div>
 													</li>
 												</ul>
 		</div>

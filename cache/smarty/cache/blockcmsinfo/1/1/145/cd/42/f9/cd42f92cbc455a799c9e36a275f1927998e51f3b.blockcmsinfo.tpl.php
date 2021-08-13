@@ -10,41 +10,36 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '165966450060e4f15680d6f6-62028068',
-  'variables' => 
-  array (
-    'infos' => 0,
-    'info' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_60e4f156a45416_39648969',
+  'unifunc' => 'content_6115a583222956_04321783',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60e4f156a45416_39648969')) {function content_60e4f156a45416_39648969($_smarty_tpl) {?><!-- MODULE Block cmsinfo -->
+<?php if ($_valid && !is_callable('content_6115a583222956_04321783')) {function content_6115a583222956_04321783($_smarty_tpl) {?><!-- MODULE Block cmsinfo -->
 <div id="cmsinfo_block">
 					<div class="col-xs-6"><ul>
 <li><em class="icon-truck" id="icon-truck"></em>
 <div class="type-text">
-<h3>Lorem Ipsum</h3>
-<p>Lorem ipsum dolor sit amet conse ctetur voluptate velit esse cillum dolore eu</p>
+<h3>Envíos Personalizados</h3>
+<p>Elige donde quieres recibir tus productos.</p>
 </div>
 </li>
 <li><em class="icon-phone" id="icon-phone"></em>
 <div class="type-text">
-<h3>Dolor Sit Amet</h3>
-<p>Lorem ipsum dolor sit amet conse ctetur voluptate velit esse cillum dolore eu</p>
+<h3>Contáctanos</h3>
+<p><span> Tel </span>0123-456-789.</p>
 </div>
 </li>
 <li><em class="icon-credit-card" id="icon-credit-card"></em>
 <div class="type-text">
-<h3>Ctetur Voluptate</h3>
-<p>Lorem ipsum dolor sit amet conse ctetur voluptate velit esse cillum dolore eu</p>
+<h3>Sistema de pago rápido y sencillo</h3>
+<p>Puedes escoger entre diferentes los diferentes métodos de pagos que ofrecemos.</p>
 </div>
 </li>
 </ul></div>
-					<div class="col-xs-6"><h3>Custom Block</h3>
-<p><strong class="dark">Lorem ipsum dolor sit amet conse ctetu</strong></p>
-<p>Sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p></div>
+					<div class="col-xs-6"><h3>Acerca de</h3>
+<p><b>Moto Partes Thania</b></p>
+<p><span>Moto partes Thania es un taller mecánico especializado en motores de cuatro y dos tiempos, Frenos convencionales y de disco, sistemas eléctricos, transmisiones, enderezado y pintura, fue creado con la visión de que en un mismo lugar el cliente pudiera encontrar todos y cada uno de los servicios que requiere, a los mejores precios y con la oportunidad necesaria para mantener en optimas condiciones su motocicleta.</span></p></div>
 		</div>
 <!-- /MODULE Block cmsinfo -->
 <?php }} ?>

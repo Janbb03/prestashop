@@ -10,17 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '133481855260e4f151032ec7-92199128',
-  'variables' => 
-  array (
-    'link' => 0,
-    'search_query' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_60e4f1516b44d7_55748801',
+  'unifunc' => 'content_6115a598279ea0_80826143',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60e4f1516b44d7_55748801')) {function content_60e4f1516b44d7_55748801($_smarty_tpl) {?><!-- Block search module TOP -->
+<?php if ($_valid && !is_callable('content_6115a598279ea0_80826143')) {function content_6115a598279ea0_80826143($_smarty_tpl) {?><!-- Block search module TOP -->
 <div id="search_block_top" class="col-sm-4 clearfix">
 	<form id="searchbox" method="get" action="//localhost/prestashop/buscar" >
 		<input type="hidden" name="controller" value="search" />

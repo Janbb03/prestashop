@@ -10,16 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '12309307660e4f155bfb297-07117132',
-  'variables' => 
-  array (
-    'facebookurl' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_60e4f155cc0280_32082376',
+  'unifunc' => 'content_6115a582a935c4_47699231',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60e4f155cc0280_32082376')) {function content_60e4f155cc0280_32082376($_smarty_tpl) {?><div id="fb-root"></div>
+<?php if ($_valid && !is_callable('content_6115a582a935c4_47699231')) {function content_6115a582a935c4_47699231($_smarty_tpl) {?><div id="fb-root"></div>
 <div id="facebook_block" class="col-xs-4">
 	<h4 >Síganos en Facebook</h4>
 	<div class="facebook-fanbox">

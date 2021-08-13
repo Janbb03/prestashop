@@ -16,19 +16,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '154864299660e4f15c882e25-28170683',
-  'variables' => 
-  array (
-    'isDhtml' => 0,
-    'blockCategTree' => 0,
-    'child' => 0,
-    'numberColumn' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_60e4f15ca0dab7_66522335',
+  'unifunc' => 'content_6115a58959bfc0_14595357',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60e4f15ca0dab7_66522335')) {function content_60e4f15ca0dab7_66522335($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_6115a58959bfc0_14595357')) {function content_6115a58959bfc0_14595357($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Categorías</h4>
@@ -36,79 +29,57 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="list">
 			<ul class="dhtml">
 												
-<li class="last">
+<li >
 	<a 
-	href="http://localhost/prestashop/3-mujer" title="Aquí encontrarás todas las colecciones de moda de mujer.  
- Esta categoría incluye todos los básicos de tu armario y mucho más: 
- ¡zapatos, complementos, camisetas estampadas, vestidos muy femeninos y vaqueros para mujer!">
-		Mujer
+	href="http://localhost/prestashop/12-cascos" title="">
+		CASCOS
 	</a>
 			<ul>
 												
-<li >
-	<a 
-	href="http://localhost/prestashop/4-tops" title="Aquí encontrarás camisetas, tops, blusas, camisetas de manga corta, de manga larga, sin mangas, de media manga y mucho más. 
- ¡Encuentra el corte que mejor te quede!">
-		Tops
-	</a>
-			<ul>
-												
-<li >
-	<a 
-	href="http://localhost/prestashop/5-camisetas" title="Los must have de tu armario; ¡échale un vistazo a los diferentes colores, 
- formas y estilos de nuestra colección!">
-		Camisetas
-	</a>
-	</li>
-
-																
 <li class="last">
 	<a 
-	href="http://localhost/prestashop/7-blusas" title="Combina tus blusas preferidas con los accesorios perfectos para un look deslumbrante.">
-		Blusas
+	href="http://localhost/prestashop/13-cascos-hjc" title="Cascos para motocicleta de la marca HJC">
+		CASCOS HJC
 	</a>
 	</li>
 
 									</ul>
 	</li>
 
-																
-<li class="last">
-	<a 
-	href="http://localhost/prestashop/8-vestidos" title="¡Encuentra tus vestidos favoritos entre nuestra amplia colección de vestidos de noche, vestidos informales y vestidos veraniegos! 
- Te ofrecemos vestidos para todos los días, para cualquier estilo y cualquier ocasión.">
-		Vestidos
-	</a>
-			<ul>
-												
-<li >
-	<a 
-	href="http://localhost/prestashop/9-vestidos-informales" title="¿Estás buscando un vestido para todos los días? Échale un vistazo a 
- nuestra selección para encontrar el vestido perfecto.">
-		Vestidos informales
-	</a>
-	</li>
-
+							
 																
 <li >
 	<a 
-	href="http://localhost/prestashop/10-vestidos-noche" title="¡Descubre nuestra colección y encuentra el vestido perfecto para una velada inolvidable!">
-		Vestidos de noche
+	href="http://localhost/prestashop/14-guantes" title="">
+		GUANTES
 	</a>
 	</li>
 
+							
+																
+<li >
+	<a 
+	href="http://localhost/prestashop/15-ropa" title="">
+		ROPA
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost/prestashop/16-accesorios" title="">
+		ACCESORIOS
+	</a>
+	</li>
+
+							
 																
 <li class="last">
 	<a 
-	href="http://localhost/prestashop/11-vestidos-verano" title="Cortos, largos, de seda, estampados... aquí encontrarás el vestido perfecto para el verano.">
-		Vestidos de verano
+	href="http://localhost/prestashop/17-outlet" title="">
+		OUTLET
 	</a>
-	</li>
-
-									</ul>
-	</li>
-
-									</ul>
 	</li>
 
 							
